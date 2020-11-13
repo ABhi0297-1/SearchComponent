@@ -1,0 +1,148 @@
+.Main_Cont
+{
+    width:48vw;
+    /* border:1px solid black;        */
+    align-items: center;
+    margin-left: 36%;
+    margin-top: 15%;
+
+    
+}
+.searchCont
+{ width:100%;
+    /* background-color: white; */
+border-radius: 5px;
+box-sizing: border-box;    
+outline:none;
+/* margin-left: -1px;
+margin-top: -1px; */
+}
+.SearchBox
+{   background-color: black;
+    font-size: 26px;
+    width:78%;
+    padding:10px,5px;
+    box-sizing: border-box;
+    font-style: italic;
+    color:gray;
+    font-weight: normal;
+    outline: none;
+        /* border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px; */
+    /* box-shadow: 0 0 0 1px; */
+    border:2px solid white;
+    
+}
+.Array_list_cont
+{   width:77.9%;
+    /* border-top: 1px solid black; */
+   /* border-top-left-radius: 5px; */
+   /* border-top-right-radius: 15px; */
+    height: 10rem;
+    overflow: hidden;
+    margin-left: 1px;
+    margin-top: -4px;
+    
+}
+.Array_list_Items
+{   background-color:black;
+    color: white;
+     font-style: italic;
+    font-size:18px;
+    list-style-type: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top:10px;
+    padding-bottom: 2px;
+    /* border-bottom: 1px  black; */
+    padding:10px,5px;
+    cursor: pointer;
+    
+}
+.Array_list_Items:hover
+{
+    background-color: darkgray;
+    color:black;
+}
+.ArrayList{
+    margin:0px;
+    padding:0px;
+    text-align: left;
+}
+.ArrayList::before{
+    content: "";
+}
+#button
+{   box-sizing: border-box;
+    margin-left:0px;
+    width:20%;
+    font-size: 20px;
+    overflow: hidden;
+}
+#button:hover
+{
+    background-color: darkgray;
+}
+
+
+
+
+/* .Main_Cont
+{   
+    width:500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:34vh;
+    overflow: hidden;
+    border: 2px solid black;    
+}
+.ArrayList{
+    list-style-type: none;
+    color: rgb(12, 7, 0);
+    position: absolute;
+    width:100%;    
+   top:70%;
+   border: 2px solid black;
+}
+.Array_list_cont
+{   
+    border: 2px solid black;
+    justify-content: center;
+}
+.searchCont{
+padding-top:18.5px;
+text-align: center;
+top:50%;
+align-items: center;
+position: absolute;
+border: 2px solid black;
+width:100%;
+}
+.SearchBox{
+font-size: 26px;
+color:black;
+background-color: burlywood;
+border: 2px solid black; */
+/* position: absolute;
+
+} */
+/* .Array_list_Items
+{   font-weight: 1500;
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+}
+
+#button
+{
+font-size: 26px;
+border-radius: 2px;
+position:absolute;
+}
+#button:hover
+{
+    background-color: darkgray;
+} */
